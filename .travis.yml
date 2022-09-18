@@ -20,4 +20,7 @@ jobs:
     - stage: push docker images
       script: 
       - echo "$DOCKERHUB_PASSWORD" | docker login -u "$DOCKERHUB_USERNAME" --password-stdin
-      - docker push sudkul/udagram-api-feed:v1
+      - docker push jimezesinachi/udagram-api-feed:v1
+      - docker push jimezesinachi/udagram-api-user:v1
+      - docker push jimezesinachi/udagram-frontend:v1
+      - docker push jimezesinachi/reverseproxy:v1
