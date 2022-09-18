@@ -20,9 +20,3 @@ jobs:
       - docker push jimezesinachi/udagram-api-user:v1
       - docker push jimezesinachi/udagram-frontend:v1
       - docker push jimezesinachi/reverseproxy:v1
-
-
-# - stage: tag docker images
-#    script: 
-# - stage: push docker images
-#    script: 
